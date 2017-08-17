@@ -7,7 +7,7 @@
 
 *Date: 2017-08-17*
 
-![ProjectTapCounter.gif](ProjectTapCounter.gif)
+![ProjectTapCounter.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/01.Tap Counter/ProjectTapCounter.gif)
 
 What I learned from this demo:
 
