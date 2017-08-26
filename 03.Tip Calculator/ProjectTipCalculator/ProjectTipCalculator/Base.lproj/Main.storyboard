@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProjectTipCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VyE-hN-U9i">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Tip Calculator" id="MIa-41-SOo"/>
+                                </items>
+                            </navigationBar>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ehn-9c-vif">
+                                <rect key="frame" x="20" y="104" width="335" height="217"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$0.00" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="72" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="1xL-4M-QcQ">
+                                        <rect key="frame" x="149.5" y="0.0" width="185.5" height="86"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="72"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="p7w-fs-6uG">
+                                        <rect key="frame" x="189.5" y="106" width="145.5" height="61"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nMl-bd-XaU">
+                                                <rect key="frame" x="0.0" y="0.0" width="70.5" height="61"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip (15%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkF-8P-HJo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="70.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzy-yB-jSl">
+                                                        <rect key="frame" x="28" y="40.5" width="42.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ZZw-2c-iph">
+                                                <rect key="frame" x="100.5" y="0.0" width="45" height="61"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43e-AA-OKw">
+                                                        <rect key="frame" x="0.0" y="0.0" width="45" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYq-YC-AXL">
+                                                        <rect key="frame" x="0.0" y="40.5" width="45" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0.0" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="yOx-qa-Ytt">
+                                        <rect key="frame" x="-2" y="187" width="339" height="31"/>
+                                        <connections>
+                                            <action selector="onSliderValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="ZbD-G3-Vei"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yOx-qa-Ytt" firstAttribute="width" secondItem="Ehn-9c-vif" secondAttribute="width" id="ed6-jV-dGn"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VyE-hN-U9i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="MBJ-l8-d31"/>
+                            <constraint firstAttribute="trailing" secondItem="VyE-hN-U9i" secondAttribute="trailing" id="OfU-rz-C6F"/>
+                            <constraint firstAttribute="trailing" secondItem="Ehn-9c-vif" secondAttribute="trailing" constant="20" id="a28-kz-dNg"/>
+                            <constraint firstItem="Ehn-9c-vif" firstAttribute="top" secondItem="VyE-hN-U9i" secondAttribute="bottom" constant="40" id="iq8-g2-CNc"/>
+                            <constraint firstItem="Ehn-9c-vif" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ukZ-Vu-T0J"/>
+                            <constraint firstItem="VyE-hN-U9i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zxy-KI-yeC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelTip" destination="43e-AA-OKw" id="PB3-Ih-01B"/>
+                        <outlet property="labelTipPercent" destination="KkF-8P-HJo" id="pN9-Nc-rkp"/>
+                        <outlet property="labelTotal" destination="NYq-YC-AXL" id="veD-XA-mSg"/>
+                        <outlet property="sliderTip" destination="yOx-qa-Ytt" id="A9A-d2-lLT"/>
+                        <outlet property="textPay" destination="1xL-4M-QcQ" id="9L6-af-usg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

@@ -2,6 +2,21 @@
 30 iOS projects with Swift in my next 100 days
 
 ***
+## 03.Tip Calculator
+
+*Date: 2017-08-26*
+
+![ProjectTipCalculator.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/03.Tip%20Calculator/ProjectTipCalculator.gif)
+
+What I learned from this demo:
+
+* Swift extensions, double to string format, computed values
+* Multiple stack view to build more flexible layout
+* Use the slider, and give it the value change response handler
+* Add custom UIToolBar to the number keyboard, set clear button and keyboard type
+* Deal with the focus of UITextField, and enable or disable the other elements
+
+***
 ## 02.Tap Hold Counter
 
 *Date: 2017-08-20*
