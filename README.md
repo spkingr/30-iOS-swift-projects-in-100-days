@@ -2,6 +2,20 @@
 30 iOS projects with Swift in my next 100 days
 
 ***
+## 04.Basic Table View
+
+*Date: 2017-09-02*
+
+![ProjectBasicTableView.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/04.Basic%20Table%20View/ProjectBasicTableView.gif)
+
+What I learned from this demo:
+
+* Basic table view and the simple custom cell
+* Display local data, add or edit local data and refresh the table
+* Use `UIAlertController` with text field and deal with the response of alert actions
+* Change the constrains of the table view in the view container by storyboard
+
+***
 ## 03.Tip Calculator
 
 *Date: 2017-08-26*
