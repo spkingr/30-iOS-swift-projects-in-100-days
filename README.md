@@ -2,6 +2,20 @@
 30 iOS projects with Swift in my next 100 days
 
 ***
+## 05.Detail Table View
+
+*Date: 2017-09-03*
+
+![ProjectDetailTableView.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/05.Detail%20Table%20View/ProjectDetailTableView.gif)
+
+What I learned from this demo:
+
+* Pass data from one view to another through segue
+* Work with custom view controller and embed them in the navigation controller
+* Customize the swipe action menus of table view cells
+* Multiple lines for `UILabel` (set lins to 0 in storyboard), customize the navigation bar item (the code should be placed in main `ViewController`, not the detail view controller), and remove the blanks between top bar and table view (uncheck the **Adjust Scroll View Insets** in view controller)
+
+***
 ## 04.Basic Table View
 
 *Date: 2017-09-02*
