@@ -2,6 +2,21 @@
 30 iOS projects with Swift in my next 100 days
 
 ***
+## 06.Photo Picker
+
+*Date: 2017-10-05*
+
+![ProjectPhotoPicker.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/06.Photo%20Picker/ProjectPhotoPicker.gif)
+
+What I learned from this demo:
+
+* Work with static cells in static table view
+* Use container view (UIContainerView) to embed other view
+* Specify user permissions in the Info.plist file
+* Deal with the focus of UITextField, with `becomeFirstResponder()` and the implementation of `UITextFieldDelegate` protocol, return `true` in `textFieldShouldReturn(_ textField: UITextField) -> Bool` method
+* Try to use camera and photo library with image picker
+
+***
 ## 05.Detail Table View
 
 *Date: 2017-09-03*
