@@ -2,6 +2,19 @@
 30 iOS projects with Swift in my next 100 days
 
 ***
+## 07.Pull To Refresh Table View
+
+*Date: 2017-10-14*
+
+![ProjectRefreshTableView.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/07.Refresh%20Table%20View/ProjectRefreshTableView.gif)
+
+What I learned from this demo:
+
+* Add refresh control to achieve pull-to-refresh and reload data in table view
+* Override `numberOfSections(in : UITableView)` function to change the default appearance of empty table view
+* Set title and add navigation bar items in swift code
+
+***
 ## 06.Photo Picker
 
 *Date: 2017-10-05*
