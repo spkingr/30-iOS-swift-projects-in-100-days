@@ -1,5 +1,29 @@
 # 30-iOS-swift-projects-in-100-days
 30 iOS projects with Swift in my next 100 days
+My wish list:
+1. CollectionView with header, edit, rearranges
+2. TableView with edit mode and rearranges
+3. Asynchronized works
+4. ?
+
+***
+## 08.Basic Collection View
+
+*Date: 2017-10-21*
+
+![ProjectCollectionView.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/08.Collection%20View/ProjectCollectionView.gif)
+
+What I learned from this demo:
+
+* Work with collection view, within more than one columns
+* Delete items in collection view through `UILongPressGestureRecognizer` and `UIAlertController` and `IndexPath` in collection view
+* Extension with `UICollectionViewDelegateFlowLayout`, override the important **optional** methods
+* Try to use circular images in code:
+
+```swift
+cell.imageTitle.layer.cornerRadius = cell.imageTitle.bounds.height * 0.5
+cell.imageTitle.clipsToBounds = true
+```
 
 ***
 ## 07.Pull To Refresh Table View
