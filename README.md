@@ -4,7 +4,25 @@ My wish list:
 1. CollectionView with header, edit, rearranges
 2. TableView with edit mode and rearranges
 3. Asynchronized works
-4. ?
+4. Sticky section headers and jumpbar
+5. Images handler
+6. Animations
+7. ?
+
+
+***
+## 09.Editable Table View
+
+*Date: 2017-12-19*
+
+![ProjectEditableTableView.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/09.Editable%20Table%20View/ProjectEditableTableView.gif)
+
+What I learned from this demo:
+
+* Change the edit mode in `UITableView`, use the method `setEditing(_, animated:)`
+* Rearrange the table view cell items in edit mode
+* Dynamicly change the title of the bar button item
+* Add text filed to the alert, and deal with the text result
 
 ***
 ## 08.Basic Collection View
