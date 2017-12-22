@@ -1,14 +1,46 @@
 # 30-iOS-swift-projects-in-100-days
 30 iOS projects with Swift in my next 100 days
+
 My wish list:
 1. CollectionView with header, edit, rearranges
-2. TableView with edit mode and rearranges
-3. Asynchronized works
-4. Sticky section headers and jumpbar
-5. Images handler
-6. Animations
-7. ?
+2. Asynchronized works
+3. Sticky section headers and jumpbar
+4. Images handler
+5. Custom Animations
+6. ?
 
+
+***
+## 10.Basic Animation
+
+*Date: 2017-12-22*
+
+![ProjectBasicAnimation.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/10.Basic%20Animation/ProjectBasicAnimation.gif)
+
+What I learned from this demo:
+
+* The basic animation with the controls in iOS
+* Show or hide the navigation bar or bar items in code
+* Use computed data or properties in swift
+* Understand the method `viewWillAppear` and `viewDidAppear` for controlling the animation logic
+
+**I found a problem that the position of controls in `viewWillAppear` cannot move, even thought the value is changed! However if you put the code in `viewDidAppear` then the controls will move, but, the animation looks wried!!! So, I have to hide(set alpha=0.0) and then move them in `viewDidAppear`, why this happens(the auto layout is not the reason!)?**
+```swift
+override func viewWillAppear(_ animated: Bool)
+{
+    super.viewWillAppear(animated)
+
+    print(self.labelHeading.center.x) //result is 147.5, all right.
+    self.labelHeading.center.x -= self.view.bounds.width //no movement happens!
+    print(self.labelHeading.center.x) //is -227.5, OK, but no changes on the screen, why???
+}
+override func viewDidAppear(_ animated: Bool)
+{
+    super.viewDidAppear(animated)
+
+    self.labelHeading.center.y -= self.view.bounds.height //the control moves here!
+}
+```
 
 ***
 ## 09.Editable Table View
