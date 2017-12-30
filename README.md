@@ -9,6 +9,20 @@ My wish list:
 5. Custom Animations
 6. ?
 
+***
+## 11.Simple Network Image View
+
+*Date: 2017-12-30*
+
+![ProjectNetworkImage.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/11.Network%20Image%20View/ProjectNetworkImage.gif)
+
+What I learned from this demo:
+
+* Load and display image from server by using `URLSession`
+* Deal with the response, data and error of the network connection result
+* Switch from net thread to the main thread to control the UI elements through `DispatchQueue`
+
+**I cannot load image from the `non-https` URL, so add the property `Allow Arbitrary Loads` under `App Transport Security Settings`, set the value as `YES`.**
 
 ***
 ## 10.Basic Animation
