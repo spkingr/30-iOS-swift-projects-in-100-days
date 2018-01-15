@@ -3,11 +3,22 @@
 
 My wish list:
 1. CollectionView with header, edit, rearranges
-2. Asynchronized works
-3. Sticky section headers and jumpbar
-4. Images handler
-5. Custom Animations
-6. ?
+2. Sticky section headers and jumpbar
+3. Custom Animations
+4. ?
+
+***
+## 12.Simple Image Viewer
+
+*Date: 2018-1-15*
+
+![ProjectSimpleImageViewer.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/12.Simple%20Image%20Viewer/ProjectSimpleImageViewer.gif)
+
+What I learned from this demo:
+
+* Use the `UIScrollView` with `ImageView` to scale image
+* Simple usage of the `NumberFormatter`, and the lazy property definition
+* Add Tap Gesture Recogizer to the main view in Interface Builder to deal with keyboard dismiss
 
 ***
 ## 11.Simple Network Image View
