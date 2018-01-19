@@ -8,6 +8,20 @@ My wish list:
 4. ?
 
 ***
+## 13.Pure Code App
+
+*Date: 2018-1-18*
+
+![ProjectPureCodeApp.png](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/13.Pure%20Code%20Project/ProjectPureCodeApp.png)
+
+What I learned from this demo:
+
+* Delete and get rid of the storyboard, just add code in `AppDelegate` to install views
+* Pure code for custom table view cell class, override the `init` function to do initialization
+* Add the simple `UILabel` to the content view of the table view cell
+* Code for the simplest constrains(**I notice that, you should constrain the label to the `self.view` but not to the content view!**)
+
+***
 ## 12.Simple Image Viewer
 
 *Date: 2018-1-15*
