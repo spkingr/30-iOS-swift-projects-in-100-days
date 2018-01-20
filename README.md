@@ -12,7 +12,7 @@ My wish list:
 
 *Date: 2018-1-20*
 
-![ProjectLocalFileData.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/14.Local%20Data%20Saving/ProjectLocalFileData.png)
+![ProjectLocalFileData.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/14.Local%20Data%20Saving/ProjectLocalFileData.gif)
 
 What I learned from this demo:
 
