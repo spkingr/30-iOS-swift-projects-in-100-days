@@ -8,6 +8,20 @@ My wish list:
 4. ?
 
 ***
+## 14.Save Data To File
+
+*Date: 2018-1-20*
+
+![ProjectLocalFileData.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/14.Local%20Data%20Saving/ProjectLocalFileData.png)
+
+What I learned from this demo:
+
+* Create object with `NSObject` and `NSCoding` protocol
+* Save encoded object to local file with `FileManager` and `NSKeyedArchiver`
+* Understand the basic knowledge of the app's life circle
+* Work with `Date`, `DateFormatter`, `tableView.deleteRows`, and `editButtonItem`
+
+***
 ## 13.Pure Code App
 
 *Date: 2018-1-18*
