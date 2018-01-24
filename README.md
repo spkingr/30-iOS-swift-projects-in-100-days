@@ -1,11 +1,19 @@
 # 30-iOS-swift-projects-in-100-days
-30 iOS projects with Swift in my next 100 days
+30 iOS projects with Swift in my next 100 days(next server months or years maybe)
 
-My wish list:
-1. CollectionView with header, edit, rearranges
-2. Sticky section headers and jumpbar
-3. Custom Animations
-4. ?
+
+***
+## 15.Json Data Presenter
+
+*Date: 2018-1-24*
+
+![ProjectJsonDataTable.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/15.Json%20Data%20Presenter/ProjectJsonDataTable.gif)
+
+What I learned from this demo:
+
+* Load `json` data from server and parse it to local data class
+* Work with `URLRequest`, `URLQueryItem` and `URLComponents` to fetch network data
+* Initialize data in `AppDelegate` through view controller
 
 ***
 ## 14.Save Data To File
