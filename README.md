@@ -3,6 +3,20 @@
 
 
 ***
+## 16.Flickr Recent Photos
+
+*Date: 2018-1-26*
+
+![ProjectFlickrRecentPhotos.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/16.Flickr%20Recent%20Photos/ProjectFlickrRecentPhotos.gif)
+
+What I learned from this demo:
+
+* Deal with the errors in Swift with `enum` types and `Error` protocol
+* Solve the problem of wrong image place in `UIImageView` while reuse the cells in table view
+* Save image file to file system with `UIImageJPEGRepresentation` and `FileManager`
+* Use `UIActivityIndicatorView` to preload images
+
+***
 ## 15.Json Data Presenter
 
 *Date: 2018-1-24*
@@ -14,6 +28,8 @@ What I learned from this demo:
 * Load `json` data from server and parse it to local data class
 * Work with `URLRequest`, `URLQueryItem` and `URLComponents` to fetch network data
 * Initialize data in `AppDelegate` through view controller
+
+**PS: For the reason of reusable of cells, the image will not be correctly presented in the expected `UIImageView`, but I have solved this in my next app.**
 
 ***
 ## 14.Save Data To File
