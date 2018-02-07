@@ -3,6 +3,21 @@
 
 
 ***
+## 17.Walkthrough Pages
+
+*Date: 2018-2-7*
+
+![ProjectWalkthroughPages.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/17.Walkthrough%20Pages/ProjectWalkthroughPages.gif)
+
+What I learned from this demo:
+
+* Work with protocals: `UIPageViewControllerDelegate` and `UIPageViewControllerDataSource` to build `UIPageViewController`
+* Use `NSLayoutConstraint` to do the animation of controls
+* Instantiate view controllers by `UIStoryboard`
+
+**PS. This project supports one solution to the animation problems in the previous project: *10.Basic Animation* by using the `NSLayoutConstraint` in layout.**
+
+***
 ## 16.Flickr Recent Photos
 
 *Date: 2018-1-26*
