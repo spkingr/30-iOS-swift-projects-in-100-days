@@ -3,6 +3,33 @@
 
 
 ***
+## 18.Tabs with Controllers
+
+*Date: 2018-2-15*
+
+![ProjectTabBarView.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/19.Tab%20Bar%20View/ProjectTabBarView.gif)
+
+What I learned from this demo:
+
+* Work with `UITabBarController`, and the controllers embed with `UINavigationController`
+* Implement the `UITextFieldDelegate` protocol to monitor the changes of text content
+* The basic map view in controller setup, set location in simulator, make annotation in view
+
+***
+## 17.Line Drawing View
+
+*Date: 2018-2-14*
+
+![ProjectLinesDrawingView.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/18.Drawing%20Lines/ProjectLinesDrawingView.gif)
+
+What I learned from this demo:
+
+* Touch event handle in `UIResponder` with multiple pointers, and super view
+* Basic graphic in `UIView`, draw lines with path, stroke, width and color
+* Use `@IBInspectable` to make properties visible in `Storyboard` settings panel
+* Clip the view and save to image file, show the hidden toolbar in navigation
+
+***
 ## 17.Walkthrough Pages
 
 *Date: 2018-2-7*
