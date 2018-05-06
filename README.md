@@ -3,7 +3,21 @@
 
 
 ***
-## 20.
+## 21.Keychain for Security
+
+*Date: 2018-5-6*
+
+![ProjectKeychain.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/21.Keychain%20In%20Security/ProjectKeychain.gif)
+
+What I learned from this demo:
+
+* Use `Keychian` source code for security in swift
+* New keywords in swift: `throws`, `where` clause in extension, `enum` in class, `UserDefaults` and `UIDevice`
+
+**Resource:** [GenericKeychain](https://developer.apple.com/library/content/samplecode/GenericKeychain/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007797-Intro-DontLinkElementID_2)
+
+***
+## 20.CocoaPods in iOS
 
 *Date: 2018-4-27*
 
@@ -15,10 +29,12 @@ What I learned from this demo:
 * Use sleep method of `Thread` with `DispatchQueue` to simulate long-time-process 
 
 **PS:** While I use `CocoaPods` in AppCode, even though the pod is installed but I cannot use it, everything ends with this error: *No such module 'MBProgressHUD'.* At last I fix this problem after searching on website: 
+
 1. Open project (the .xcworkspace file) in XCode
 2. Open menu: Product - Scheme - Manage Schemes, only check the Pods item and click Close button
 3. Click menu: Product - Build
-4. Return to AppCode, and this time even thought the error is still here but the code assistant works fine, leave it, just build and run, it works!
+4. Return to AppCode, and this time even thought the error is still there but the code assistant works fine, leave it, just build and run, it works!
+
 That's all, why it happens? I got no idea.
 
 ***
