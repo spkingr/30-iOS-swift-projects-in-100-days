@@ -2,6 +2,20 @@
 30 iOS projects with Swift in my next 100 days(next server months or years maybe)
 
 
+
+***
+## 22.Simple Game With SpriteKit
+
+*Date: 2018-5-26*
+
+![ProjectSimpleGame.gif](https://github.com/spkingr/30-iOS-swift-projects-in-100-days/raw/master/22.Simple%20Game/ProjectSimpleGame.gif)
+
+What I learned from this demo:
+
+* Try to build iOS game with `SKView`, `GameScene` in `SpriteKit`
+* Use the simple physic system such as collision test in game
+* Overload basic operators of `CGPoint` in Swift
+
 ***
 ## 21.Keychain for Security
 
